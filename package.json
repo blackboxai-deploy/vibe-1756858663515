@@ -1,13 +1,13 @@
 {
   "name": "teamwork-app",
   "version": "1.0.0",
-  "description": "Aplicación interna de trabajo en equipo para gestión de proyectos, comunicación y archivos",
+  "description": "Aplicaci\u00f3n interna de trabajo en equipo para gesti\u00f3n de proyectos, comunicaci\u00f3n y archivos",
   "private": true,
   "scripts": {
-    "dev": "PORT=3000 next dev",
-    "build": "next build",
-    "build-production": "next build",
-    "start": "next start",
+    "dev": "node init && PORT=3000 next dev",
+    "build": "node init && next build",
+    "build-production": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
